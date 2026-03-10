@@ -39,7 +39,7 @@ function App() {
 
         {/* Routes avec layout */}
         <Route element={<Layout />}>
-          <Route path="/home" element={<HomeScreen />} />
+          <Route path="/home" element={<DevisScreen/>} />
           <Route path="/mod0001" element={<HomeScreen />} />
           <Route path="/mod0002" element={<TachesScreen />} />
           <Route path="/mod0003" element={<ProjetsScreen />} />
