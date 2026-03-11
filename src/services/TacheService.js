@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5001/api";
+const API_URL = "https://backend-firmproject.onrender.com/api";
 
 export const TacheService = {
   // Récupère les détails d'une tâche par sa référence
@@ -163,7 +163,7 @@ export const TacheService = {
   async createSousTache(data) {
     try {
       const response = await fetch(
-        "http://localhost:5001/api/tache/create_sous_tache",
+        "https://backend-firmproject.onrender.com/api/tache/create_sous_tache",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },

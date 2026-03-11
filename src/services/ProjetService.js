@@ -1,5 +1,5 @@
 const API_URL =
-  process.env.REACT_APP_API_URL || "http://localhost:5001/api/m_projets";
+  process.env.REACT_APP_API_URL || "https://backend-firmproject.onrender.com/api/m_projets";
 
 export const ProjetService = {
   // ==================== PROJETS ====================

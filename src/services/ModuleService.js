@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5001/api";
+const API_URL = "https://backend-firmproject.onrender.com/api";
 
 export const ModuleService = {
   // Récupère les modules accessibles pour un utilisateur (par matricule)
