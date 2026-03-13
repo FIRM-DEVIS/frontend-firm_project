@@ -3,7 +3,6 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Navigate,
 } from "react-router-dom";
 import Layout from "./layout/Layout";
 import LoginScreen from "./screen/LoginScreen";
