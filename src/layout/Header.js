@@ -312,14 +312,14 @@ const Header = () => {
     <>
       <header className="container-header">
         <div className="navbar-header">
-          <div
+          {/* <div
             className="navbar-item1 notification-icon alert-container"
             onClick={() => setShowAlerts(true)}
             style={{ cursor: 'pointer' }}
           >
             <i className="bi bi-exclamation-diamond-fill header-alert-icon"></i>
             {hasAlerts && <div className="notification-dot alert-dot"></div>}
-          </div>
+          </div> */}
 
           <div 
             className="navbar-item1 notification-icon notification-container"
